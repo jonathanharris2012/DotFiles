@@ -21,6 +21,13 @@ Function quit {
 }
 
 Function src {Set-Location -Path ~\src}
+Function eio {Set-Location -Path ~\Exercism}
+
+Function Purge-File ($sourceFile, $string) {
+    Get-Content $sourceFile | Where-Object {$_ -notmatch "$string"} | Set-Content out.txt
+    Copy-Item out.txt $sourceFile
+    Remove-Item -Path out.txt
+}
 
 # $Shell = $Host.UI.RawUI
 New-Item alias:np -value "C:\Program Files\Notepad++\notepad++.exe" | Out-Null
