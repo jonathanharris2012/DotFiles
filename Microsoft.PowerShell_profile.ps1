@@ -1,3 +1,6 @@
+# To create a Junction Point for the Powershell Profile dir:
+# mklink /J "C:\Users\Jonathan\src" "C:\Users\Jonathan\Documents\WindowsPowerShell"
+
 Function Prompt
 {
     "" + (Get-Location) + "`n>"
