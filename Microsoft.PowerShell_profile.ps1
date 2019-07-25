@@ -7,7 +7,7 @@ Function Prompt
     "" + (Get-Location) + "`n>"
 }
 #>
-Function admin
+Function sudo
 {
     if ($args.Count -gt 0)
     {   
@@ -24,10 +24,6 @@ Function quit {
 	Invoke-Expression "exit"
 }
 
-Function Update-Apps {
-    puppet apply C:\users\Jonat\src\bootstrap-windows\installs.pp
-}
-
 Function src {Set-Location -Path ~\src}
 Function eio {Set-Location -Path ~\Exercism}
 
@@ -39,7 +35,7 @@ Function Purge-File ($sourceFile, $string) {
     Remove-Item -Path out.txt
 }
 
-Function pupdate {
+Function Update-Apps {
     Set-Location ~\src\bootstrap-windows
     puppet apply .\installs.pp
     Pause
