@@ -1,17 +1,18 @@
 # A DotFiles Repository
 
 * [What You Get From This Repo](#what-you-get-from-this-repo)
-* [Getting Started](#getting-started:)
-    * [File Locations](file-locations)
+* [Getting Started](#getting-started)
+* [File Locations](file-locations)
 ## What You Get From This Repo
 
 This is a simply a collection of DotFiles. Currently for PowerShell and Bash. Someday I'll put the files in the write location with a script.
 
-## Getting Started:
+## Getting Started
 
 Clone the repo. Dump the files in the correct locations. Profit.
+Note that I'm using WSL with Ubuntu for the Bash CLI.
 
-### File Locations
+## File Locations
 
 1. PowerShell DotFiles are stored in:
     * C:\Users\<User>\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
