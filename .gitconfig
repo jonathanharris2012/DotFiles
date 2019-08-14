@@ -1,0 +1,18 @@
+[alias]
+	pl = log --oneline --decorate --graph
+	plall = log --oneline --decorate --all --graph
+	co = checkout
+	ds = diff --staged
+	d = diff
+	dwd = diff --word-diff
+	dcw = diff --color-words
+	dswd = diff --staged --word-diff
+	dscw = diff --staged --color-words
+	ss = status -s
+	st = status
+	erdone = sh -c 'git fetch && git pull && git submodule update
+[user]
+	email = jonathan.harris@sonicdrivein.com
+	name = Jonathan Harris
+[core]
+	autocrlf = input
