@@ -1,0 +1,1 @@
+Copy-Item -Path .\Microsoft.PowerShell_profile.ps1 $HOME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1 -Force

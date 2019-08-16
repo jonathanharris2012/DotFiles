@@ -44,6 +44,7 @@ Function Update-Apps {
 # $Shell = $Host.UI.RawUI
 New-Item alias:np -value "C:\Program Files\Notepad++\notepad++.exe" | Out-Null
 New-Item alias:google -value "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" | Out-Null
+New-Item alias:tf -value "C:\ProgramData\chocolatey\bin\terraform.exe" | Out-Null
 Set-Alias q quit
 
 
