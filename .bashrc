@@ -101,14 +101,14 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-alias cds='cd ~/src'
-alias cde='cd ~/Exercism'
-alias sshpupdev='ssh -i ~/.ssh/PuppetNonOpsWorks.pem ec2-user@ec2-13-59-101-124.us-east-2.compute.amazonaws.com'
-alias sshpupprod='ssh -i ~/.ssh/Puppet-Foreman_Production.pem ec2-user@ec2-18-220-79-35.us-east-2.compute.amazonaws.com'
+# alias cds='cd ~/src'
+# alias cde='cd ~/Exercism'
+# alias sshpupdev='ssh -i ~/.ssh/PuppetNonOpsWorks.pem ec2-user@ec2-13-59-101-124.us-east-2.compute.amazonaws.com'
+# alias sshpupprod='ssh -i ~/.ssh/Puppet-Foreman_Production.pem ec2-user@ec2-18-220-79-35.us-east-2.compute.amazonaws.com'
 
-# if [ -f ~/.bash_aliases ]; then
-#     . ~/.bash_aliases
-# fi
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
