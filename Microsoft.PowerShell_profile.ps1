@@ -24,8 +24,8 @@ Function quit {
 	Invoke-Expression "exit"
 }
 
-Function src {Set-Location -Path ~\src}
-Function eio {Set-Location -Path ~\Exercism}
+Function cds {Set-Location -Path ~\src}
+Function cde {Set-Location -Path ~\Exercism}
 
 Function path {($env:Path).Replace(';',"`n")}
 
