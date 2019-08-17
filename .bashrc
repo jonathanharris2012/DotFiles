@@ -45,6 +45,14 @@ esac
 # should be on the output of commands, not on the prompt
 #force_color_prompt=yes
 
+# For fancy git prompt goodness, clone the repo below
+# And add the "if" to ~/.bashrc
+# git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
+# if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
+#     GIT_PROMPT_ONLY_IN_REPO=1
+#     source $HOME/.bash-git-prompt/gitprompt.sh
+# fi
+
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
 	# We have color support; assume it's compliant with Ecma-48
