@@ -334,6 +334,43 @@
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
             "useAcrylic" : false
+        },
+        {
+            "acrylicOpacity" : 0.75,
+            "closeOnExit" : true,
+            "colorScheme" : "Campbell",
+            "commandline" : "C:/Program Files/Git/bin/bash.exe",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "bar",
+            "fontFace" : "Consolas",
+            "fontSize" : 10,
+            "guid" : "{9664d755-5589-4f62-b522-0769b9be6536}",
+            "historySize" : 9001,
+            "icon" : "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
+            "name" : "Git Bash",
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%/src",
+            "useAcrylic" : false
+        },
+        {
+            "acrylicOpacity" : 0.5,
+            "background" : "#252829",
+            "closeOnExit" : true,
+            "colorScheme" : "Campbell",
+            "commandline" : "C:/Program Files/PowerShell/6/pwsh.exe -WorkingDirectory ~",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "bar",
+            "fontFace" : "Consolas",
+            "fontSize" : 10,
+            "guid" : "{e6216de5-60ea-4657-a44a-faaec7664236}",
+            "historySize" : 9001,
+            "icon" : "C:/Program Files/PowerShell/6/assets/Powershell_black.ico",
+            "name" : "Powershell 6",
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%",
+            "useAcrylic" : false
         }
     ],
     "schemes" : 
