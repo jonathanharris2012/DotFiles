@@ -301,6 +301,25 @@
             "useAcrylic" : false
         },
         {
+            "acrylicOpacity" : 0.5,
+            "background" : "#252829",
+            "closeOnExit" : true,
+            "colorScheme" : "Campbell",
+            "commandline" : "C:/Program Files/PowerShell/6/pwsh.exe -WorkingDirectory ~",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "bar",
+            "fontFace" : "Consolas",
+            "fontSize" : 10,
+            "guid" : "{e6216de5-60ea-4657-a44a-faaec7664236}",
+            "historySize" : 9001,
+            "icon" : "C:/Program Files/PowerShell/6/assets/Powershell_black.ico",
+            "name" : "Powershell 6",
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%",
+            "useAcrylic" : false
+        },
+        {
             "acrylicOpacity" : 0.75,
             "closeOnExit" : true,
             "colorScheme" : "Campbell",
@@ -351,25 +370,6 @@
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%/src",
-            "useAcrylic" : false
-        },
-        {
-            "acrylicOpacity" : 0.5,
-            "background" : "#252829",
-            "closeOnExit" : true,
-            "colorScheme" : "Campbell",
-            "commandline" : "C:/Program Files/PowerShell/6/pwsh.exe -WorkingDirectory ~",
-            "cursorColor" : "#FFFFFF",
-            "cursorShape" : "bar",
-            "fontFace" : "Consolas",
-            "fontSize" : 10,
-            "guid" : "{e6216de5-60ea-4657-a44a-faaec7664236}",
-            "historySize" : 9001,
-            "icon" : "C:/Program Files/PowerShell/6/assets/Powershell_black.ico",
-            "name" : "Powershell 6",
-            "padding" : "0, 0, 0, 0",
-            "snapOnInput" : true,
-            "startingDirectory" : "%USERPROFILE%",
             "useAcrylic" : false
         }
     ],
