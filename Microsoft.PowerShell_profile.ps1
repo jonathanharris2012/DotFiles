@@ -1,12 +1,12 @@
 # To create a Junction Point for the Powershell Profile dir:
 # mklink /J "C:\Users\Jonathan\src" "C:\Users\Jonathan\Documents\WindowsPowerShell"
 
-<#
+
 Function Prompt
 {
     "" + (Get-Location) + "`n>"
 }
-#>
+
 Function sudo
 {
     if ($args.Count -gt 0)
@@ -51,4 +51,4 @@ Set-Alias q quit
 # Clear-Host
 
 
-Import-Module 'C:\tools\poshgit\dahlbyk-posh-git-9bda399\src\posh-git.psd1'
+# Import-Module 'C:\tools\poshgit\dahlbyk-posh-git-9bda399\src\posh-git.psd1'
