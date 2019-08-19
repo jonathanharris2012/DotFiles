@@ -1,5 +1,7 @@
 Copy-Item -Path .\Microsoft.PowerShell_profile.ps1 $HOME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1 -Force
+Copy-Item -Path .\Microsoft.PowerShell_profile.ps1 $HOME\Documents\PowerShell\Microsoft.PowerShell_profile.ps1 -Force
 Copy-Item -Path .\.gitconfig $HOME\.gitconfig -Force
+Copy-Item -Path .\.gitbashrc $HOME\.bashrc -Force
 
 #For WSL Linux things
 if (Test-Path \\wsl$\Ubuntu-18.04\home\jonathanharris){
