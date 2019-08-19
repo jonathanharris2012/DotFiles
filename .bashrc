@@ -100,6 +100,12 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias cds='cd ~/src'
+alias cde='cd ~/Exercism'
+alias sshpupdev='ssh -i ~/.ssh/PuppetNonOpsWorks.pem ec2-user@ec2-13-59-101-124.us-east-2.compute.amazonaws.com'
+alias sshpupprod='ssh -i ~/.ssh/Puppet-Foreman_Production.pem ec2-user@ec2-18-220-79-35.us-east-2.compute.amazonaws.com'
+alias tf='terraform'
+
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
