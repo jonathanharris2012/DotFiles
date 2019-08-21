@@ -29,6 +29,9 @@ Function cde {Set-Location -Path ~\Exercism}
 
 Function path {($env:Path).Replace(';',"`n")}
 
+Function pupdev {ssh -i ~/.ssh/PuppetNonOpsWorks.pem ec2-user@ec2-13-59-101-124.us-east-2.compute.amazonaws.com}
+Function pupprod {ssh -i ~/.ssh/Puppet-Foreman_Production.pem ec2-user@ec2-18-220-79-35.us-east-2.compute.amazonaws.com}
+
 Function Purge-File ($sourceFile, $string) {
     Get-Content $sourceFile | Where-Object {$_ -notmatch "$string"} | Set-Content out.txt
     Copy-Item out.txt $sourceFile
