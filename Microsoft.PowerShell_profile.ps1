@@ -27,6 +27,8 @@ Function quit {
 Function cds {Set-Location -Path ~\src}
 Function cde {Set-Location -Path ~\Exercism}
 
+Function pat {puppet agent -t}
+
 Function path {($env:Path).Replace(';',"`n")}
 
 Function pupdev {ssh -i ~/.ssh/PuppetNonOpsWorks.pem ec2-user@ec2-13-59-101-124.us-east-2.compute.amazonaws.com}
