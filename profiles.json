@@ -272,6 +272,27 @@
                 [
                     "alt+9"
                 ]
+            },
+            {
+                "command" : "paste",
+                "keys" : 
+                [
+                    "shift+insert"
+                ]
+            },
+            {
+                "command" : "copy",
+                "keys" : 
+                [
+                    "ctrl+insert"
+                ]
+            },
+            {
+                "command" : "copyTextWithoutNewlines",
+                "keys" : 
+                [
+                    "ctrl+shift+insert"
+                ]
             }
         ],
         "requestedTheme" : "system",
