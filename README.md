@@ -5,7 +5,7 @@
 * [File Locations](#file-locations)
 ## What You Get From This Repo
 
-This is a simply a collection of DotFiles. Currently for PowerShell and Bash. Someday I'll put the files in the write location with a script.
+This is a simply a collection of DotFiles. Currently for PowerShell and Bash. Someday I'll put the files in the right location with a script.
 
 ## Getting Started
 
