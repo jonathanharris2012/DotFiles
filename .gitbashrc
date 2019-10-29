@@ -1,7 +1,8 @@
 alias cds='cd ~/src'
 alias cde='cd ~/Exercism'
-alias pupdev='ssh -i ~/.ssh/PuppetNonOpsWorks.pem ec2-user@ec2-13-59-101-124.us-east-2.compute.amazonaws.com'
-alias pupprod='ssh -i ~/.ssh/Puppet-Foreman_Production.pem ec2-user@ec2-18-220-79-35.us-east-2.compute.amazonaws.com'
+alias pupdev='ssh -i ~/.ssh/PuppetNonOpsWorks.pem ec2-user@ec2-54-92-162-194.compute-1.amazonaws.com'
+alias pupprod='ssh -i ~/.ssh/Puppet-Foreman_Production.pem ec2-user@ec2-3-16-139-36.us-east-2.compute.amazonaws.com'
+alias ans='ssh -i ~/.ssh/ansible.pem ec2-user@awx2-wo-alb-jqhcxo1rziiw-2119648338.us-east-2.elb.amazonaws.com'
 alias tf='terraform'
 
 function gimme () {
