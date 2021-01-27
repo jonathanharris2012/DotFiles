@@ -1,0 +1,5 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host github-Heartland-Cloud-Magicians
+    HostName github.com
+    User github
+    IdentityFile ~/.ssh/id_rsa_hcm
