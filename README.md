@@ -18,4 +18,4 @@ Note that I'm using WSL with Ubuntu for the Bash CLI.
     * C:\Users\<User>\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
     * Or $HOME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 1. Bash DotFiles are stored in ~/.bashrc
-1. GitConfig DotFiles are stored in ~/.gitconfig
+1. GitConfig DotFiles are stored in ~/.gitconfig 
