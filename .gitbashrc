@@ -6,5 +6,5 @@ alias ans='ssh -i ~/.ssh/ansible.pem ec2-user@awx2-wo-alb-jqhcxo1rziiw-211964833
 alias tf='terraform'
 
 function gimme () {
-    git clone git@bitbucket.org:sonicdrivein/$1.git
+    git clone git@bitbucket.org:<site>/$1.git
 }
