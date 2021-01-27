@@ -3,8 +3,10 @@ Host github.com
     HostName github.com
     User github
     IdentityFile ~/.ssh/id_rsa_hcm
+    IdentitiesOnly yes
 
-Host github.com
+Host github-personal
     HostName github.com
     User github
     IdentityFile ~/.ssh/id_rsa_jh_gh
+    IdentitiesOnly yes
